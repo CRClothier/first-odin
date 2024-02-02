@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.dark {
+  background-color: #1F2937;
+  color: #F9FAF8;
+}
+
+.flex {
+  display: flex;
+}
+
+header {
+  padding: 0 15%;
+  justify-content: space-between;
+  font-size: 24px;
+}
+
+section {
+  padding: 0 15%;
+}
+
+section h1 {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+a {
+  color: #F9FAF8;
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  gap: 15px;
+}
+
+img {
+  width: 35vw;
+  height: auto;
+}
