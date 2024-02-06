@@ -115,7 +115,7 @@ button {
 
 blockquote {
   background-color: #E5E7EB;
-  padding: 15%;
+  padding: 100px 20%;
   font-size: 36px;
   font-style: italic;
   font-weight: lighter;
@@ -127,4 +127,28 @@ blockquote footer {
   font-weight: bold;
   font-style: normal;
   text-align: right;
+}
+
+.action {
+  color: #F9FAF8;
+  padding: 8% 15%;
+}
+
+.action button {
+  height: fit-content;
+  border: solid 2px #F9FAF8;
+}
+
+.action-container {
+  background-color: #3882F6;
+  border-radius: 5px;
+  padding: 40px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
 }
