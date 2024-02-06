@@ -20,6 +20,10 @@ body {
 header {
   padding: 0 15%;
   justify-content: space-between;
+  font-size: 18px;
+}
+
+h1 {
   font-size: 24px;
 }
 
@@ -45,4 +49,60 @@ ul {
 img {
   width: 35vw;
   height: auto;
+}
+
+.hero {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  gap: 60px
+}
+
+.hero-card {
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+}
+
+button {
+  width: 100px;
+  padding: 5px;
+  background-color: #3882F6;
+  border: none;
+  border-radius: 5px;
+  color: #F9FAF8;
+  font-weight: bold;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.card-container img {
+  width: 150px;
+  border: solid 2px #3882F6;
+  border-radius: 5px;
+}
+
+.info-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.info-card figcaption {
+  width: 150px;
+  text-align: center;
 }
