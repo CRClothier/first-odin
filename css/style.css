@@ -18,7 +18,7 @@ body {
 }
 
 header {
-  padding: 0 15%;
+  padding: 15px 15%;
   justify-content: space-between;
   font-size: 18px;
 }
@@ -81,6 +81,12 @@ button {
   gap: 50px;
   padding-top: 50px;
   padding-bottom: 80px;
+  color: #1F2937;
+}
+
+.info-container h2 {
+  font-size: 36px;
+  font-weight: 800;
 }
 
 .card-container {
@@ -105,4 +111,20 @@ button {
 .info-card figcaption {
   width: 150px;
   text-align: center;
+}
+
+blockquote {
+  background-color: #E5E7EB;
+  padding: 15%;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1F2937;
+}
+
+blockquote footer {
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  text-align: right;
 }
